@@ -10,20 +10,20 @@ echo " |  _ <  | |    \   / |  __|   |  __  |  __| |  _  /|  __|  "
 echo " | |_) | | |     | |  | |____  | |  | | |____| | \ \| |____ "
 echo " |____/  |_|     |_|  |______| |_|  |_|______|_|  \_\______|"
 echo -e "\033[0m"
-echo -e "\033[1;33m> Developer: MR LEGEND\033[0m"
+echo -e "\033[1;33m> Developer: Mr Legend\033[0m"
 echo -e "\033[1;34m----------------------------------------\033[0m"
 
 # WhatsApp channel requirement
 echo -e "\033[1;32m"
-echo "YOU MUST JOIN OUR WHATSAPP GROUP TO USE THIS TOOL"
-echo "Group Link:"
+echo "JOIN OUR WHATSAPP GROUP TO USE THIS TOOL"
+echo "Channel Link:"
 echo "https://chat.whatsapp.com/D1QVjlWubfc3KEgvp9GyjB"
 echo -e "\033[0m"
 echo -e "\033[1;34m----------------------------------------\033[0m"
 
-read -p "Have you joined the group? (y/n): " joined
+read -p "Have you joined the channel? (y/n): " joined
 if [ "$joined" != "y" ]; then
-    echo "Please join our WhatsApp Group first!"
+    echo "Please join our WhatsApp group first!"
     exit 1
 fi
 
